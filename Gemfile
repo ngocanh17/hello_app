@@ -65,4 +65,6 @@ gem 'pg', group: :production
 
 gem 'rails_12factor', group: :production
 
-gem 'net-smtp'
+gem 'net-smtp', require: false
+gem 'net-imap', require: false
+gem 'net-pop', require: false
