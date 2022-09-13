@@ -61,7 +61,7 @@ group :development, :test do
   gem "debug",   "1.5.0", platforms: %i[ mri mingw x64_mingw ]
 end
 
-gem 'pg', '0.18.1', group: :production
+gem 'pg', group: :production
 
 gem 'rails_12factor', group: :production
 
