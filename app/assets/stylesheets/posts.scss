@@ -1,12 +1,10 @@
-
-
 .product{
     border: 1px solid black;
-    margin: 10px;
-    height: 450px;
-    max-width: 290px;
+    margin-top: 30px;
     padding: 10px;
+    border-radius: 10px;
 }
+
 .price {
     color: red;
 }
@@ -14,6 +12,9 @@
     font-weight: 100px;
 }
 .picture {
-    // width: 100%;
     text-align: center;
+
+    img {
+        width: 100%;
+    }
 }
